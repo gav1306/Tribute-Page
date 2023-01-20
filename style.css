@@ -63,16 +63,19 @@ h3{
 }
 
 .gallery{
-        margin:0 50px;
-        border: 1px ;
-        width: 98%;     
+        margin:0 50px; 
+        display: flex;  
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
 }
 
 .gallery img{
     height: 120px;
-    width: 120px;
-    display: inline-block
+    
+    aspect-ratio: 1;
 }
+    
 
 .gallery img:hover{
     transform: scale(1.2);
